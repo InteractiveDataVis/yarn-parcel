@@ -1,0 +1,17 @@
+{
+  "name": "yarn-parcel",
+  "version": "1.0.0",
+  "repository": "https://github.com/InteractiveDataVis/yarn-parcel.git",
+  "author": "ellie <ellie.frymire@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "d3": "^7.8.2"
+  },
+  "scripts": {
+    "run-the-thing": "parcel src/index.html",
+    "BUILD": "parcel build src/index.html"
+  }
+}
