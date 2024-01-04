@@ -1,3 +1,5 @@
-import { scaleBand, ScaleBand } from "d3";
+import { select, scaleBand } from "d3";
 
 console.log(scaleBand)
+
+select("#container").text(scaleBand.toString())
